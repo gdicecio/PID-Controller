@@ -1,0 +1,15 @@
+Description of .txt file
+---------------------------------------------------------------------------------------------------------------------------
+Spazio_XX_YYkHz is a measurement file. I have sampled the angular position of the motor for estimate the Transfer Function.
+
+Controllo_XXXOrdine is a measurement file. I have sampled the angular speed of closed loop system.
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Description of .m file
+---------------------------------------------------------------------------------------------------------------------------
+Model_identification is a matlab script file. I have calucated the Transfer Function from measurement of angular position.
+ideal_tfN is a matlab funcion file. I used it for calculate minimum mean square deviation between measurement and ideal TF.
+parameter_variation is a matlab script file. It shows the parameter variation of TF with some input signal.
+Derivatore is a matlab script file. I calculated mathematical expression of differentiator for C implementation.
+ControllerPI is a matlab script file. I tuned the PID controller for previous TF.

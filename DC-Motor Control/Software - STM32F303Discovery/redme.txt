@@ -1,0 +1,7 @@
+I used a STM32F303VC microcontroller.
+I have implemented the Matlab algorithms in C language.
+
+--------------------------------------------------------------------------------------------------------
+I used a PWM driver to drive a 12V DC motor and I used an optical encoder for sampling the angular position.
+
+The encoder has 36 degree resolution.
